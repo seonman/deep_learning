@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 
 env = gym.make('FrozenLake-v0')
-env = wrappers.Monitor(env, "gym-results")
+#env = wrappers.Monitor(env, "gym-results")
 
 action_space_n = 4
 state_space_n = 16

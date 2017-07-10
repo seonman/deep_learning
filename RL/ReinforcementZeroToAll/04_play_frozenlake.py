@@ -17,6 +17,7 @@ arrow_keys = {
 # is_slippery True
 env = gym.make('FrozenLake-v0')
 
+state = env.reset()
 env.render()  # Show the initial board
 
 while True:

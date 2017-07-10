@@ -168,7 +168,7 @@ def main():
                 avg_reward = np.mean(last_100_game_reward)
 
                 if avg_reward > 199:
-                    print(f"Game Cleared in {episode} episodes with avg reward {avg_reward}")
+                    print("Game Cleared in {episode} episodes with avg reward {avg_reward}")
                     break
 
 

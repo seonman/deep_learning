@@ -7,6 +7,7 @@ import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
 
+# Stochastic world
 env = gym.make('FrozenLake-v0')
 
 # Input and output size based on the Env
